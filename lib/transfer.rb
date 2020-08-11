@@ -9,7 +9,7 @@ class Transfer
   end
 
   def valid? 
-   
+   binding.pry
   end
 
 end
