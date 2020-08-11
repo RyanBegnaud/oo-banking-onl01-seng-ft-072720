@@ -22,7 +22,6 @@ class Transfer
       @receiver.balance = @receiver.balance + @amount
     else
       "no can doosville babydoll"
-      binding.pry 
     end
   end
 
