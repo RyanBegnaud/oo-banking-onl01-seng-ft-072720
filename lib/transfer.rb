@@ -18,6 +18,7 @@ class Transfer
   
   def execute_transaction
     if valid? == true 
+      @sender.balance = @sender.balance - @amount
       binding.pry 
     end
   end
